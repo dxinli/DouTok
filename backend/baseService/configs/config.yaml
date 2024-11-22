@@ -15,7 +15,7 @@ components:
       port: 3306
       db_name: doutok
       user: root
-      password: root
+      password: a12bCd3_W45pUq6
   redis:
     default:
       dsn: localhost:6379

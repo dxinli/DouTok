@@ -9,6 +9,7 @@ components:
     default:
       host: localhost
       port: 2379
+      timeout: 10s
   consul:
     default:
       address: localhost:8500

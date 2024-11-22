@@ -110,4 +110,4 @@ require (
 	stathat.com/c/consistent v1.0.0 // indirect
 )
 
-replace github.com/cloudzenith/DouTok/backend/gopkgs v0.0.9 => github.com/cloudzenith/DouTok/backend/gopkgs v0.0.0-20241103032449-fe0152ac484a
+replace github.com/cloudzenith/DouTok/backend/gopkgs v0.0.9 => ../gopkgs
