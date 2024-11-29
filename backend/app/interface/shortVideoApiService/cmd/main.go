@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/cloudzenith/DouTok/backend/gopkgs/launcher"
+	"github.com/cloudzenith/DouTok/backend/pkg/launcher"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/internal/conf"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/internal/infrastructure/errs"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/internal/server"

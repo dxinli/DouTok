@@ -2,7 +2,7 @@ package commentapp
 
 import (
 	"context"
-	"github.com/cloudzenith/DouTok/backend/gopkgs/errorx"
+	"github.com/cloudzenith/DouTok/backend/pkg/errorx"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/api/svapi"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/internal/infrastructure/adapter/svcoreadapter"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/internal/infrastructure/adapter/svcoreadapter/commentoptions"

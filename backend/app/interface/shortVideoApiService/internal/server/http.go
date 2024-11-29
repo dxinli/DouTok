@@ -2,7 +2,7 @@ package server
 
 import (
 	"context"
-	"github.com/cloudzenith/DouTok/backend/gopkgs/middlewares/httprespwrapper"
+	"github.com/cloudzenith/DouTok/backend/pkg/middlewares/httprespwrapper"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/api/svapi"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/internal/infrastructure/middlewares"
 	"github.com/cloudzenith/DouTok/backend/shortVideoApiService/internal/infrastructure/utils/claims"

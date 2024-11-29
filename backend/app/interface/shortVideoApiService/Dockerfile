@@ -41,9 +41,9 @@ RUN mkdir logs
 RUN mkdir configs
 
 COPY --from=builder /build/serve /app/serve
-COPY ./configs /app/configs
-COPY ./entrypoint.sh /app/entrypoint.sh
-COPY ./promtail.yaml /app/promtail.yaml
+COPY configs /app/configs
+COPY entrypoint.sh /app/entrypoint.sh
+COPY promtail.yaml /app/promtail.yaml
 
 COPY --from=promtail-builder /build/loki-3.1.1/promtail /app/promtail
 

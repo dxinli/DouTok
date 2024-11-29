@@ -3,7 +3,7 @@ package baseadapter
 import (
 	"context"
 	"github.com/cloudzenith/DouTok/backend/baseService/api"
-	"github.com/cloudzenith/DouTok/backend/gopkgs/components/consulx"
+	"github.com/cloudzenith/DouTok/backend/pkg/components/consulx"
 )
 
 type Adapter struct {

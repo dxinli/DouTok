@@ -2,7 +2,7 @@ package svcoreadapter
 
 import (
 	"context"
-	"github.com/cloudzenith/DouTok/backend/gopkgs/components/consulx"
+	"github.com/cloudzenith/DouTok/backend/pkg/components/consulx"
 	v1 "github.com/cloudzenith/DouTok/backend/shortVideoCoreService/api/v1"
 )
 

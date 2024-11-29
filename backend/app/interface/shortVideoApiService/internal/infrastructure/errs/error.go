@@ -1,6 +1,6 @@
 package errs
 
-import "github.com/cloudzenith/DouTok/backend/gopkgs/errorx"
+import "github.com/cloudzenith/DouTok/backend/pkg/errorx"
 
 const (
 	ErrUnknownUserInfo    = 100001

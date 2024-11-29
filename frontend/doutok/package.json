@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gen-svapi": "restful-react import --file ../../backend/shortVideoApiService/openapi.yaml --output ./api/svapi/api.tsx && prettier ./api/svapi/api.tsx --write",
+    "gen-svapi": "restful-react import --file ../../backend/app/interface/shortVideoApiService/openapi.yaml --output ./api/svapi/api.tsx && prettier ./api/svapi/api.tsx --write",
     "test": "next test",
     "prettier": "prettier --write ."
   },
